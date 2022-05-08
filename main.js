@@ -10,6 +10,7 @@ function myFunction1(zatvorky,cislo) {
 // pridelujem hodnotu do vnutorneho html mojej h1-co je vysledok funkcie ( {} )7
 h1.innerHTML = myFunction1( "( {} )",7);
 
+// ==============================================================================================
 
 // funkcia je deklarovana s 3 parametrami
 function kalkulacka(prveCislo, druheCislo, znamienko) {
@@ -22,3 +23,27 @@ function kalkulacka(prveCislo, druheCislo, znamienko) {
 // Function Invocation-vyvolanie funkcie
 // vyvolavam funkciu do konzole (cez nazov funkcie a pridanim hodnot argumentov(1,5,"+"))
 console.log(kalkulacka(1,5,"+"));
+
+// =====================================================================================================
+
+function calculateAge(birth) {
+    return 2022 - birth;
+}
+
+function yearsUntilRetirement(year, firstName) {
+    let age = calculateAge(year);
+    let retirement = 64 - age;
+
+    if(retirement >= 0){
+        console.log("Počet rokov do dôchodku je " + retirement + " u " + firstName );
+    } else {
+        retirement =-(retirement);
+        console.log(firstName + " " + "Je už v dôchodku " + retirement + " rokov.");
+    } 
+}
+
+yearsUntilRetirement(2000, "Ivana");
+yearsUntilRetirement(1970, "Peter");
+yearsUntilRetirement(1950, "Zdena");
+
+// ===============================================================================================================
