@@ -1,6 +1,6 @@
 .flex-button,
 .grid-button,
-.surprise-button {
+.block-button {
     border: 1px solid rgb(112, 179, 112);
     background-color: rgb(160, 236, 160);
     text-align: center;
@@ -14,7 +14,7 @@
 
 .flex-button:focus,
 .grid-button:focus,
-.surprise-button:focus {
+.block-button:focus {
     background-color: rgb(243, 216, 94);
     width: 7rem;
     height: 4rem;
@@ -29,7 +29,7 @@
     gap: 0.5rem;
 }
 
-.surprise-container {
+.block-container {
     display: block;
     width: 40%;
     background-color: rgb(130, 219, 190);

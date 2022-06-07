@@ -25,13 +25,13 @@ function myFunction(prepinak) {
     if(prepinak == "flex"){
         divContainer.classList.add("flex-container");
         divContainer.classList.remove("grid-container")
-        divContainer.classList.remove("surprise-container")
+        divContainer.classList.remove("block-container")
     } else if(prepinak == "grid"){
         divContainer.classList.remove("flex-container")
         divContainer.classList.add("grid-container");
-        divContainer.classList.remove("surprise-container")
-    } else if(prepinak == "surprise"){
-        divContainer.classList.add("surprise-container")
+        divContainer.classList.remove("block-container")
+    } else if(prepinak == "block"){
+        divContainer.classList.add("block-container")
         divContainer.classList.remove("grid-container")
         divContainer.classList.remove("flex-container")
     }
