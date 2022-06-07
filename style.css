@@ -1,0 +1,84 @@
+.flex-button,
+.grid-button,
+.surprise-button {
+    border: 1px solid rgb(112, 179, 112);
+    background-color: rgb(160, 236, 160);
+    text-align: center;
+    padding: 0.5rem;
+    width: 5rem; 
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    }
+
+.flex-button:focus,
+.grid-button:focus,
+.surprise-button:focus {
+    background-color: rgb(243, 216, 94);
+    width: 7rem;
+    height: 4rem;
+    border: 3px solid yellowgreen;
+    border-radius: 0.4rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.surprise-container {
+    display: block;
+    width: 40%;
+    background-color: rgb(130, 219, 190);
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+.flex-container {
+    width: 100%;
+    background-color: rgb(38, 61, 61);
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem ;
+
+}
+
+.flex-container > div {
+    font-size: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+    background-color: aquamarine;
+    margin: 0.2rem;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    'header header header header header'
+    "menu main main right right"
+    "menu footer footer footer footer";
+    gap: 0.2rem;
+    background-color: #2196F3;
+    padding: 0.2rem;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}

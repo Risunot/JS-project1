@@ -1,0 +1,27 @@
+1. Create a new array of four items(your favorite games) into the bestGames variable.
+
+2. Write to the console the array and the first item from the array separately.
+
+3. Modify the first item, to some other favorite game by assigning via bracket notation []
+
+4. Add new item of the favorite game to the array by using via bracket notation
+
+5. Add new item of the favorite game to the array by another approach.
+ Use one of the javascript native method(function).
+
+6. Try to remove the first item from thebestGames array.
+
+7. The next task is quite tricky, but it can come in handy. Do the same as in the previous task, 
+except that you store the deleted value in a variable so that you can use it later.
+
+8. Now, return this removed item back to the bestGames array
+
+9. Imagine a situation where you need to find out how many items are in an array, but 
+someone can always change that number of items in the array. It would be good to always 
+find the right number.
+
+10. Modify index 0 of the bestGames array. But not just simply rewriting actual value. Modify
+ it by replacing with array of values  Last of us 1 and Last of us 2.
+ 
+11. Add new item to the new created nested (multidimensional) array and print it output to the
+ console.log() method. You can use whatever approach you want.
