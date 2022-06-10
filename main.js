@@ -37,6 +37,15 @@ function myFunction(prepinak) {
     }
 }
 
+
+function thisFunction(e) {
+    let activeButton = document.querySelector(".active");
+    if(activeButton !==null){
+        activeButton.classList.remove("active");
+    }
+   e.target.className = "active";
+  }
+
 // ===============================================================================================
 
 

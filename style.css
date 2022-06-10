@@ -1,6 +1,4 @@
-.flex-button,
-.grid-button,
-.block-button {
+button {
     border: 1px solid rgb(112, 179, 112);
     background-color: rgb(160, 236, 160);
     text-align: center;
@@ -12,9 +10,7 @@
     cursor: pointer;
     }
 
-.flex-button:focus,
-.grid-button:focus,
-.block-button:focus {
+.active {
     background-color: rgb(243, 216, 94);
     width: 7rem;
     height: 4rem;
